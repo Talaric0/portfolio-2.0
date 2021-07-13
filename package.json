@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-2.0",
+  "version": "1.0.0",
+  "description": "Bruno's personal portfolio",
+  "main": "index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "jquery-parallax.js": "^1.5.0",
+    "rellax": "^1.12.1",
+    "typed.js": "^2.0.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "node-sass": "^6.0.1",
+    "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Talarico",
+  "license": "ISC"
+}
