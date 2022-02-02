@@ -17,12 +17,12 @@ if (document.querySelector('.typed')) {
   );
 }
 
-if (document.querySelector('.rellax-hero')) {
-  var rellax = new Rellax('.rellax-hero', {
-    speed: -5,
-    vertical: true,
-  });
-}
+// if (document.querySelector('.rellax-hero')) {
+//   var rellax = new Rellax('.rellax-hero', {
+//     speed: -5,
+//     vertical: true,
+//   });
+// }
 
 
 /* //scroll-indicator
@@ -35,15 +35,15 @@ function myFunction() {
 } */
 
 /* butter smooth scrolling */
-var options = {
-    wrapperId: 'body',
-    wrapperDamper: 0.04,
-    cancelOnTouch: false
-  };
-butter.init(options);
+// var options = {
+//     wrapperId: 'body',
+//     wrapperDamper: 0.04,
+//     cancelOnTouch: false
+//   };
+// butter.init(options);
 
 /* scroll reveal */
-ScrollReveal().reveal('.project-wrapper', { delay: 100, reset: true, duration: 1000, opacity: 1 });
+// ScrollReveal().reveal('.project-wrapper', { delay: 100, reset: true, duration: 1000, opacity: 1 });
 
 
 /* FORM VALIDATION STUFF */
